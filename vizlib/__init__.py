@@ -10,8 +10,8 @@ sequence and returns the Axes it drew on, e.g.:
 import numpy as np
 import matplotlib.pyplot as plt
 
-COLORS = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100",
-          "#e87ba4", "#008300", "#4a3aa7", "#e34948"]
+COLORS = ["#7fbce8", "#ffab91", "#80cbc4", "#ffcc80",
+          "#ce93d8", "#f48fb1", "#c5e1a5", "#9fa8da"]
 INK = "#0b0b0b"
 MUTED = "#898781"
 GRID = "#e1e0d9"
