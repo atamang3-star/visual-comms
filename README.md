@@ -84,5 +84,22 @@ pink, green, and indigo.
 
 ## Examples
 
-Rendered examples live in the repo root: `showcase.png` (all eight types),
-`bar_chart.png`, `pie_chart.png`, and `correlation_plot.png`.
+Rendered examples live in [`examples/`](examples/) — one PNG per chart type
+plus a combined showcase. Regenerate them all with:
+
+```bash
+python examples/generate.py
+```
+
+| File | Chart |
+|------|-------|
+| `examples/showcase.png` | All 8 chart types in one grid |
+| `examples/line.png` | `line` |
+| `examples/bar.png` | `bar` |
+| `examples/scatter.png` | `scatter` |
+| `examples/hist.png` | `hist` |
+| `examples/box.png` | `box` |
+| `examples/pie.png` | `pie` |
+| `examples/area.png` | `area` |
+| `examples/heatmap.png` | `heatmap` |
+| `examples/correlation.png` | `heatmap` used as a correlation matrix |
